@@ -3,7 +3,7 @@ import { Fragment, useState, useEffect, Component } from "react";
 import Users from "./Users";
 import classes from "./UserFinder.module.css";
 import UsersContext from "./store/users-context";
-import ErrorBoundary from "./ErrorBoudary";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 class UserFinder extends Component {
   static contextType = UsersContext;
